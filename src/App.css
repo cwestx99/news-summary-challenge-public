@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+}
+
+
+/* Header */
+
+.title {
+  color: black;
+  margin: 0%;
+}
+
+.header {
+  display: flex;
+  padding: 1rem;
+  background: #dddddd;
+  box-shadow: 1px 2px 3px 0 rgb(0 0 0 / 25%);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+/* Homepage */
+
+.homepage {
+  background-color: rgba(0, 0, 0, 0.048);
+  padding: 100px;
+  text-align: center;
+}
+
+.article-summary {
+  box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 25%);
+  width: 1000px;
+  background-color: rgba(210, 250, 236, 0.219);
+  border-radius: 1%;
+  box-sizing: border-box;
+  margin: auto;
+  margin-bottom: 150px;
+  text-align: left;
+}
+
+.article-thumbnail {
+  width: 100%;
+  border-top-right-radius: 1%;
+  border-top-left-radius: 1%;
+}
+
+.article-headline {
+  padding: 1rem;
+  font-family: sans-serif;
+  color: black;
+  text-decoration: none;
+  margin: 0px;
+}
+
+.return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+/* Full article styles */
+
+.full-article-headline {
+  font-size: 50px;
+}
+
+.article-body {
+  font-size: 30px;
+}
+
+.article {
+  padding: 1rem;
+  width: auto;
+  border: black;
+  font-size: 20px;
+}
+
+.article-image {
+  width: 85%;
+}
+
+.external-link {
+  font-size: x-small;
+}
+
+
+/* Footer styles */
+
+.footer {
+  padding: 1rem;
+  background: #dddddd;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 3px 0 rgb(0 0 0 / 25%);
+  text-align: center;
+}
+
+.fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  color: #fefefe;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+/* Links */
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 90%;
+}
+
+
+/* For mobile phones */
+
+@media screen and (max-width: 500px) {
+
+  .homepage {
+    padding: 35px;
+  }
+
+  .article-summary {
+    width: auto;
+    margin-bottom: 35px;
+  }
+
+  .article-headline {
+    font-size: small;
+  }
+
+  .article-image {
+    width: 300px;
+  }
+
+  .full-article-headline {
+    font-size: large;
+  }
+
+  .article-body {
+    font-size: small;
+  }
+
+}
